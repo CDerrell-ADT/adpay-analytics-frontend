@@ -2,7 +2,6 @@
 const nextConfig = {
   env: {},
   reactStrictMode: true,
-  swcMinify: true,
   experimental: {},
   eslint: {
     dirs: ['app'],
@@ -11,6 +10,7 @@ const nextConfig = {
     domains: ['static.wixstatic.com'],
     formats: ['image/webp'],
   },
+  distDir: '.next'
 };
 
 module.exports = nextConfig;
